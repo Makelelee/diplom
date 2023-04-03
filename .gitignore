@@ -1,0 +1,14 @@
+idea
+*.pyc
+venv/
+db.sqlite3
+
+static/
+media/
+logs/
+
+diplom/private_settings.py
+
+/node_modules
+package-lock.json
+package.json
