@@ -32,7 +32,11 @@ class Category(models.Model):
         return self.name
 
     name = models.CharField(
-        max_length=256, verbose_name='Название категории', unique=True
+        max_length=256, verbose_name='Название категории', null=True, blank=True
+    )
+
+    link = models.CharField(
+        max_length=256, verbose_name='Ссылка на категорию', null=True, blank=True
     )
 
 
